@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/category",
+    "pages/shop/shop",
+    "pages/my/my"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "happy严选",
+    "navigationBarBackgroundColor": "#9473ef",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#9473ef",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icons/index.png",
+        "text": "首页",
+        "selectedIconPath": "static/icons/index_select.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "static/icons/category.png",
+        "selectedIconPath": "static/icons/category_select.png"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "iconPath": "static/icons/cart.png",
+        "text": "购物车",
+        "selectedIconPath": "static/icons/cart_select.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/icons/user.png",
+        "text": "我的",
+        "selectedIconPath": "static/icons/user_select.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
